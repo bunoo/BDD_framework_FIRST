@@ -12,10 +12,10 @@ import cucumber.api.CucumberOptions;//WORKING
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
- features = "C:\\Users\\Abha Kumari\\eclipse-workspace\\junit_cucumber_via_pomFile_dups2\\src\\main\\java\\features\\Login.feature"
- ,glue={"stepDefinition"}
+ features = "C:\\Users\\Abha Kumari\\eclipse-workspace\\junit_cucumber_via_pomFile_dups2\\src\\main\\java\\features\\Login.feature",
+ glue={"stepDefinition"},
+ plugin = {"pretty", "html:test-output"}
  )
-
 
 public class TestRunner {
 
