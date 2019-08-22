@@ -43,35 +43,35 @@ formatter.match({
   "location": "LoginValidation.user_is_already_on_the_Login_Page()"
 });
 formatter.result({
-  "duration": 68102456100,
+  "duration": 51013910200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginValidation.title_of_the_login_page_is_correct()"
 });
 formatter.result({
-  "duration": 201985700,
+  "duration": 19353100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginValidation.user_enters_the_login_credential()"
 });
 formatter.result({
-  "duration": 14178255600,
+  "duration": 14731749200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginValidation.user_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 36900,
+  "duration": 38000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginValidation.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 26500,
+  "duration": 29400,
   "status": "passed"
 });
 });
